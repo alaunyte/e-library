@@ -1,0 +1,30 @@
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+	box-sizing: border-box;
+	background-color: #f2f6f5;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #c8dad3;
+}
+header img {
+	width: 25%;
+	vertical-align: middle;
+	padding: 10px;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+.wrapper {
+	padding: 0 100px;
+}
