@@ -24,9 +24,11 @@ function addBook(book) {
 	const tr = table.insertRow();
 
     const td1 = tr.insertCell();
-    td1.textContent = book.title;
+    td1.textContent = book.author;
 
     const td2 = tr.insertCell();
-    td2.textContent = book.author;
+    td2.textContent = book.title;
 }
+
+
 	
